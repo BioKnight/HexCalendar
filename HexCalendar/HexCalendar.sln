@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexCalendar", "HexCalendar\HexCalendar.vbproj", "{42D841EC-3A31-453F-A687-0B991C2E3AA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D841EC-3A31-453F-A687-0B991C2E3AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D841EC-3A31-453F-A687-0B991C2E3AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D841EC-3A31-453F-A687-0B991C2E3AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D841EC-3A31-453F-A687-0B991C2E3AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6FF99B5-443E-4A98-A795-EB2876D7EB92}
+	EndGlobalSection
+EndGlobal
