@@ -27,6 +27,14 @@
         Dim hexString As String = Hex(number)
         Return hexString
     End Function
+    Private Function tobin(number As Integer) As String
+        Dim binString As String = Convert.ToString(number, 2)
+        Return binString
+    End Function
+    Private Function tob8(number As Integer) As String
+        Dim binString As String = Convert.ToString(number, 8)
+        Return binString
+    End Function
     Private Enum daysOfWeek As Integer
         Sunday = 1
         Monday
@@ -73,7 +81,7 @@
             If intRow = 1 And checkStart() = enmday Then boolCountStart = True
             If boolCountStart Then
                 'Me.Controls.Add(createlblDay(intDay, sizeLabel, New Point(locStart.X + (sizeLabel.Width * (enmday - 1)), locStart.Y + (sizeLabel.Height * (intRow - 1)))))
-                Me.Controls.Add(createlblDay(tohex(intDay), sizeLabel, New Point(locStart.X + (sizeLabel.Width * (enmday - 1)), locStart.Y + (sizeLabel.Height * (intRow - 1)))))
+                Me.Controls.Add(createlblDay(tobin(intDay), sizeLabel, New Point(locStart.X + (sizeLabel.Width * (enmday - 1)), locStart.Y + (sizeLabel.Height * (intRow - 1)))))
                 intDay += 1
                 If intDay > intDays Then boolCountStart = False
 
